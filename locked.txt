@@ -1,1 +1,4 @@
 # sha256  path. Statements locked after their A<->B PR merged. Lines are only ever added (scripts/gate.py, check 6).
+919697e972896fae4fe835565a7bce07ab791ddd54ef8a4d94505c395b2c6c3b  Theorems/EuclidLemma/A.lean
+d7c1dfed8a2e1622aa3214b61dea67cb1609e4a6a7b1ffb5347a59f35ffe4ea2  Theorems/EuclidLemma/B.lean
+d1cfce5fac7c23b80c3f0a840c7b258a42cb8fcf59ca339b54219605fb5e9867  Theorems/EuclidLemma/Equiv.lean
