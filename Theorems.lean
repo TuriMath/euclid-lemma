@@ -2,3 +2,4 @@
 import Theorems.EuclidLemma.A
 import Theorems.EuclidLemma.B
 import Theorems.EuclidLemma.Equiv
+import Theorems.EuclidLemma.Proof

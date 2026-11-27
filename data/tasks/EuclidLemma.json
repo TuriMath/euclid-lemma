@@ -1,0 +1,14 @@
+{
+  "slug": "EuclidLemma",
+  "issue": "TuriMath/euclid-lemma#1",
+  "tier": 0,
+  "source": "Wikipedia, Euclid's lemma (lead); Euclid, Elements VII.30",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["Nat.prime_iff_prime_int", "Irreducible.coprime_iff_not_dvd", "IsCoprime.dvd_of_dvd_mul_left"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Bezout route: p not dividing a gives IsCoprime p a (prime is irreducible in Z), then IsCoprime.dvd_of_dvd_mul_left. Did not cite Nat.Prime.dvd_mul / Int.Prime.dvd_mul / Prime.dvd_or_dvd."
+}
